@@ -12,10 +12,22 @@ const Navbar = () => {
             <img className="mx-2 w-10" src={logo} alt="logo" />
         </div>
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-            <FaLinkedin />
-            <FaInstagram />
-            <FaTwitterSquare />
-            <FaGithub />
+        <a href="https://www.linkedin.com/in/tebogo-selamolela-a86090159/">
+        <FaLinkedin />
+        </a>
+        <a href="https://www.instagram.com/tebza_fx/">
+        <FaInstagram />
+        </a>
+        <a href="">
+        <FaTwitterSquare />
+        </a>
+        <a href="https://www.facebook.com/MagicalTebzaworldwide">
+        <FaGithub />
+        </a>
+            
+            
+            
+            
         </div>
     </nav>
   )
