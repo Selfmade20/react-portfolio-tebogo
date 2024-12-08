@@ -2,6 +2,8 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-4.jpg";
+
 
 export const HERO_CONTENT = `As a dedicated full-stack developer with 3 years of experience, I specialize in building dynamic, scalable web applications that align with business goals and enhance user satisfaction. My skill set spans cutting-edge front-end frameworks like React and Next.js, paired with robust back-end technologies including Node.js, MySQL, PostgreSQL, and MongoDB. I am driven by a passion for innovation and a commitment to delivering solutions that combine functionality with seamless user experiences.`;
 
@@ -20,11 +22,11 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Woof Adopt a Dog Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A fully functional platform dedicated to connecting loving families with rescue dogs in need of a forever home.",
+    technologies: ["HTML", "CSS", "Javascript"],
   },
   {
     title: "Task Management App",

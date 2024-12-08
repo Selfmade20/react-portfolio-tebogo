@@ -2,6 +2,7 @@ import { RiReactjsLine } from "react-icons/ri"
 import { SiMongodb } from "react-icons/si"
 import { BiLogoPostgresql } from "react-icons/bi"
 import { FaNodeJs } from "react-icons/fa"
+import { FaHtml5 } from "react-icons/fa";
 import { BsBootstrap } from "react-icons/bs"
 import { animate, motion } from "framer-motion"
 
@@ -58,6 +59,13 @@ function Technologies() {
     animate= "animate"
     className="rounded-2xl border-4 border-neutral-500 p-4">
         <FaNodeJs className="text-7xl text-green-500"/>
+    </motion.div>
+    <motion.div 
+    variants={iconVariants(4)}
+    initial= "initial"
+    animate= "animate"
+    className="rounded-2xl border-4 border-neutral-500 p-4">
+        <FaHtml5 className="text-7xl text-green-500"/>
     </motion.div>
    
   </motion.div>
