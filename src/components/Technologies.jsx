@@ -61,7 +61,7 @@ function Technologies() {
         <FaNodeJs className="text-7xl text-green-500"/>
     </motion.div>
     <motion.div 
-    variants={iconVariants(4)}
+    variants={iconVariants(2)}
     initial= "initial"
     animate= "animate"
     className="rounded-2xl border-4 border-neutral-500 p-4">

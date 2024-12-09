@@ -1,8 +1,6 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
-import project5 from "../assets/projects/project-4.jpg";
+
 
 
 export const HERO_CONTENT = `As a dedicated full-stack developer with 3 years of experience, I specialize in building dynamic, scalable web applications that align with business goals and enhance user satisfaction. My skill set spans cutting-edge front-end frameworks like React and Next.js, paired with robust back-end technologies including Node.js, MySQL, PostgreSQL, and MongoDB. I am driven by a passion for innovation and a commitment to delivering solutions that combine functionality with seamless user experiences.`;
@@ -29,25 +27,11 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "Javascript"],
   },
   {
-    title: "Task Management App",
+    title: "Amazon Clone Website",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A fully functional platform dedicated to connecting loving families with rescue dogs in need of a forever home.",
+    technologies: ["HTML", "CSS", "Javascript", "React", "MongoDB", "Express"],
   },
 ];
 
@@ -56,3 +40,5 @@ export const CONTACT = {
   phoneNo: "+27671499983 ",
   email: "tebogo1686@gmail.com",
 };
+
+
